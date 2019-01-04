@@ -1,1 +1,2 @@
-console.log("GitQuest");
+const print = require('./printer');
+print('GITQUEST');
