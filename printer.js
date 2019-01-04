@@ -10,6 +10,7 @@ function addLetterInMessage(messageLines, letterLines) {
 
 function buildMessage(message) {
     const lettersLines = message
+        .toUpperCase()
         .split('')
         .map(letter => LETTERS[letter]);
 

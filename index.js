@@ -1,2 +1,2 @@
 const print = require('./printer');
-print('GITQUEST');
+print('guest');
